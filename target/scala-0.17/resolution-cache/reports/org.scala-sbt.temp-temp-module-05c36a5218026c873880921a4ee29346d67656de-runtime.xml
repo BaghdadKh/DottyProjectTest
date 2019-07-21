@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-module-05c36a5218026c873880921a4ee29346d67656de"
+		revision="0.17"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional"
+		date="20190407141909"/>
+	<dependencies>
+		<module organisation="ch.epfl.lamp" name="dotty-doc_0.17">
+			<revision name="0.17" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="org.scala-sbt.temp" name="temp-module-05c36a5218026c873880921a4ee29346d67656de" conf="compile, runtime" rev="0.17" rev-constraint-default="0.17" rev-constraint-dynamic="0.17" callerrev="0.17"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
