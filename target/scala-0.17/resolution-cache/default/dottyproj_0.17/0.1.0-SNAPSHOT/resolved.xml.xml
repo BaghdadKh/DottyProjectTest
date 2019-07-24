@@ -4,7 +4,7 @@
 		module="dottyproj_0.17"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190407141912"
+		publication="20190724142036"
 	>
 		<description>
 		DottyProj
@@ -29,7 +29,7 @@
 		<artifact name="dottyproj_0.17" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="ch.epfl.lamp" name="dotty-library_0.17" rev="0.17" conf="compile->default(compile)"/>
-		<dependency org="org.scalaz" name="scalaz-zio_0.17" rev="0.17" conf="compile->default(compile)"/>
+		<dependency org="ch.epfl.lamp" name="dotty-library_0.17" rev="0.17.0-RC1" conf="compile->default(compile)"/>
+		<dependency org="dev.zio" name="zio_0.17" rev="1.0.0-RC10-1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
