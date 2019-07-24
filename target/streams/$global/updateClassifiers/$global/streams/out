@@ -347,7 +347,7 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-library_0.16;0.16.0-RC1!dotty-library_0.16.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] :: resolution report :: resolve 278ms :: artifacts dl 5ms
+[debug] :: resolution report :: resolve 216ms :: artifacts dl 3ms
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT compile produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-compile.xml
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT runtime produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-runtime.xml
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT test produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-test.xml
@@ -358,4 +358,4 @@
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT test-internal produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-test-internal.xml
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT plugin produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-plugin.xml
 [debug] 	report for default#dottyproj$sources;0.1.0-SNAPSHOT pom produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.16\resolution-cache\reports\default-dottyproj$sources-pom.xml
-[debug] 	resolve done (278ms resolve - 5ms download)
+[debug] 	resolve done (216ms resolve - 3ms download)

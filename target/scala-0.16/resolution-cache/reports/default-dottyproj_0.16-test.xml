@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom"
-		date="20190721124550"/>
+		date="20190724101657"/>
 	<dependencies>
 		<module organisation="ch.epfl.lamp" name="dotty-library_0.16">
 			<revision name="0.16.0-RC1" status="release" pubdate="20190608194046" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
@@ -30,6 +30,13 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="C:\Users\Lenovo\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="zio_0.16">
+			<revision name="1.0.0-RC10-1" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="dottyproj_0.16" conf="test, compile, runtime" rev="1.0.0-RC10-1" rev-constraint-default="1.0.0-RC10-1" rev-constraint-dynamic="1.0.0-RC10-1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>

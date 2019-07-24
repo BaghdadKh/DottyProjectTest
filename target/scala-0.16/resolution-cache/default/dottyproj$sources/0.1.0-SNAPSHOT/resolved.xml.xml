@@ -4,7 +4,7 @@
 		module="dottyproj$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190721124554"
+		publication="20190723110818"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
