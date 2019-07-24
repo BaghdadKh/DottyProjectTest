@@ -124,7 +124,7 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] ch.epfl.lamp#dotty-library_0.17;0.17.0-RC1!dotty-library_0.17.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
-[debug] :: resolution report :: resolve 2993ms :: artifacts dl 3ms
+[debug] :: resolution report :: resolve 10146ms :: artifacts dl 2ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::          UNRESOLVED DEPENDENCIES         ::
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
@@ -140,7 +140,7 @@
 [debug] 	report for default#dottyproj_0.17;0.1.0-SNAPSHOT test-internal produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.17\resolution-cache\reports\default-dottyproj_0.17-test-internal.xml
 [debug] 	report for default#dottyproj_0.17;0.1.0-SNAPSHOT plugin produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.17\resolution-cache\reports\default-dottyproj_0.17-plugin.xml
 [debug] 	report for default#dottyproj_0.17;0.1.0-SNAPSHOT pom produced in C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\target\scala-0.17\resolution-cache\reports\default-dottyproj_0.17-pom.xml
-[debug] 	resolve done (2993ms resolve - 3ms download)
+[debug] 	resolve done (10146ms resolve - 2ms download)
 [warn] 
 [warn] 	Note: Unresolved dependencies path:
 [warn] 		dev.zio:zio_0.17:1.0.0-RC10-1 (C:\Users\Lenovo\Desktop\NEws\Dotty\DottyProj\build.sbt#L5-6)
@@ -152,7 +152,7 @@
 [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
 [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
 [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
-[error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:90)
+[error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
 [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
 [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
 [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
@@ -193,4 +193,3 @@
 [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 [error] 	at java.lang.Thread.run(Thread.java:745)
-
